@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>ESAMM</title>
+    <link rel="icon" type="image/png" href="./esammstudenticon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+      <nav>
+            <div class="container">
+                <img src="./esammlogo.png" alt="" srcset="" class="a">
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input
+                    type="search"
+                    placeholder="Search for internship offers, timetable and projects"
+                    />
+                </div>
+                <div class="create">
+                    <div class="profile-pic">
+                        <img src="./profile-8.jpg" alt="pic 1" />
+                    </div>
+                    <label class="btn btn-primary" for="create-post">Settings</label>
+                </div>
+            </div>
+      </nav>
+<br><br>
+      <main>
+          <div class="container">
+              <div class="left">
+                  <a class="profile">
+                      <div class="profile-pic">
+                        <img src="./profile-8.jpg">
+                      </div>
+                      <div class="handle">
+                          <h4>Saber Arfaoui</h4>
+                          <p class="text-muted">@1249352837</p>
+                      </div>
+                  </a><br><br>
+                  <div class="sidebar">
+                    <a class="menu-item " href="../Code source sprint 2/index.html">
+                      <span><i class="uil uil-home"></i></span> <h3>Home</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                      <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span> <h3>Notifications</h3>
+                    </a>
+                    <a class="menu-item " href="../sprint 4/indexintership.html">
+                        <span><i class="uil uil-compass"></i></span> <h3>Internship Offers</h3>
+                      </a>
+                    <a class="menu-item active" href="../Code source sprint 2/index.html">
+                      <span><i class="uil uil-analytics"></i></span> <h3>Student Monitoring</h3>
+                    </a>
+                    <a class="menu-item" id="messages-notifications" href="../sprint 4/indexcontact.html">
+                        <i class="uil uil-envelope"></i></span><h3>Contact</h3>
+                    </a>
+                    
+                    
+                    
+                </div>
+              </div>
+              <div class="l">
+              <div class="py-6 space-y-4 bg-gray-50 dark:bg-gray-150" style="width: 66%;">                <div class="container space-y-2">
+                  <div class="space-y-2">
+                    <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-600 dark:text-blue-300">
+                      Student Grades Semester 1
+                    </h1>
+                    <p class="text-gray-500 leading-loose md:text-xl/relaxed dark:text-gray-400">
+                      Classe 2IM3 (Classe of Saber Arfaoui)
+                  </div>
+                </div>
+                <div class="containers">
+                  <div class="w-full rounded-lg border bg-white dark:bg-gray-60">
+                    <div class="relative w-full overflow-auto">
+                      <table class="w-full caption-bottom text-sm">
+                        <thead class="[&amp;_tr]:border-b">
+                          <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted bg-gray-100 dark:bg-gray-700">
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 w-[200px]">
+                              Student
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Math DS1
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Math DS2
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Math Exam
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Math Moyenne
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Science DS1
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Science DS2
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Science Exam
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              Science Moyenne
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              History DS1
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              History DS2
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              History Exam
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              History Moyenne
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              English DS1
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              English DS2
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              English Exam
+                            </th>
+                            <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                              English Moyenne
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody class="[&amp;_tr:last-child]:border-0">
+                          <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Saber</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">6</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">10</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">11</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                          </tr>
+                          <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Eva</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">9</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">6</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">10</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">11</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">6</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">10</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">11</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">10</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">11</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">9</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">6</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">11</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">9</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">6</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">12</td>
+                          </tr>
+                          <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Max</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">14</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">14</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">14</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">18</td>
+                          </tr>
+                          <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Sophia</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">11</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">8</td>
+                          </tr>
+                          <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Leo</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">12</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">18</td>
+                            <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="py-6 space-y-4 bg-gray-50 dark:bg-gray-150" style="width: 66%;">                <div class="container space-y-2">
+                <div class="space-y-2">
+                  <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-600 dark:text-blue-300">
+                    Student Grades Semester 2
+                  </h1>
+                  <p class="text-gray-500 leading-loose md:text-xl/relaxed dark:text-gray-400">
+                    Classe 2IM3 (Classe of Saber Arfaoui)
+                </div>
+              </div>
+              <div class="containers">
+                <div class="w-full rounded-lg border bg-white dark:bg-gray-60">
+                  <div class="relative w-full overflow-auto">
+                    <table class="w-full caption-bottom text-sm">
+                      <thead class="[&amp;_tr]:border-b">
+                        <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted bg-gray-100 dark:bg-gray-700">
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 w-[200px]">
+                            Student
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Math DS1
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Math DS2
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Math Exam
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Math Moyenne
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Science DS1
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Science DS2
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Science Exam
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            Science Moyenne
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            History DS1
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            History DS2
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            History Exam
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            History Moyenne
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            English DS1
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            English DS2
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            English Exam
+                          </th>
+                          <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                            English Moyenne
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody class="[&amp;_tr:last-child]:border-0">
+                        <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Saber</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">6</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">10</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">11</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                        </tr>
+                        <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Eva</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">9</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">6</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">10</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">11</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">6</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">10</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">11</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">10</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">11</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">9</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">6</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">11</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">9</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">6</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">12</td>
+                        </tr>
+                        <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Max</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">14</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">14</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">14</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">18</td>
+                        </tr>
+                        <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Sophia</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">11</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-yellow-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-purple-500">8</td>
+                        </tr>
+                        <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Leo</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">8</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">12</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-green-500">15</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">18</td>
+                          <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-blue-500">12</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+
+<style>h1, h2, h3, h4, h5, h6 { font-family: 'Libre Franklin', sans-serif; --font-sans: 'Libre Franklin'; }
+</style>
+<style>body { font-family: 'Libre Franklin', sans-serif; --font-sans: 'Libre Franklin'; }
+</style>
+<div class=" py-6 space-y-4 bg-gray-50 dark:bg-gray-900 "style="width: 66%;">
+  <div class="container space-y-2">
+    <div class="space-y-2">
+      <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-600 dark:text-blue-300">
+        Student Absences in this current Semester
+      </h1>
+      <p class="text-gray-500 leading-loose md:text-xl/relaxed dark:text-gray-400">
+        Classe 2IM3 (Classe of Saber Arfaoui)
+      </p>
+    </div>
+  </div>
+  <div class="containers">
+    <div class="w-full rounded-lg border bg-white dark:bg-gray-800">
+      <div class="relative w-full overflow-auto">
+        <table class="w-full caption-bottom text-sm">
+          <thead class="[&amp;_tr]:border-b">
+            <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted bg-gray-100 dark:bg-gray-700">
+              <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 w-[200px]">
+                Student
+              </th>
+              <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                Math
+              </th>
+              <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                Science
+              </th>
+              <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                History
+              </th>
+              <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+                English
+              </th>
+            </tr>
+          </thead>
+          <tbody class="[&amp;_tr:last-child]:border-0">
+            <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Saber</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">2</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">3</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">0</td>
+            </tr>
+            <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Ghaya</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">2</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">2</td>
+            </tr>
+            <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Nour</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">0</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">0</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+            </tr>
+            <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Rayen</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">3</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">0</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">2</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+            </tr>
+            <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">Jed</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">2</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">1</td>
+              <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-red-500">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+
+
+
+              </div>
+          </div>
+      </main>
+
+        <script src="index.js"></script>
+  </body>
+  
+</html>
